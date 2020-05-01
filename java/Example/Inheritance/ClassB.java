@@ -1,11 +1,15 @@
 class ClassB{
   String abc;
-  ClassB{
+  int a;  
+ClassB(int a, String abc){
+    this.a = a;
+    this.abc = abc;
     System.out.println("welcome to class B");
   }
 
-  void printData(){
-    System.out.println("the value of abc is"+abc);
+  void printValue(){
+    System.out.println("value of a is "+ a+"  "+ abc);
 
   }
+
 }
