@@ -13,6 +13,7 @@ ClassB(int a, String abc){
 
   }
 
+ // sets value of fa
   void setFloatValueFa(Float f){
     this.fa = f;
     System.out.println("value of fa");
