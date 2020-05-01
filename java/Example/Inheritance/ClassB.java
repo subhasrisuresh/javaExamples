@@ -1,6 +1,7 @@
 class ClassB{
   String abc;
-  int a;  
+  int a;
+  Float fa;
 ClassB(int a, String abc){
     this.a = a;
     this.abc = abc;
@@ -9,6 +10,13 @@ ClassB(int a, String abc){
 
   void printValue(){
     System.out.println("value of a is "+ a+"  "+ abc);
+
+  }
+
+ // sets value of fa
+  void setFloatValueFa(Float f){
+    this.fa = f;
+    System.out.println("value of fa");
 
   }
 
