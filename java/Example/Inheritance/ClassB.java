@@ -20,7 +20,7 @@ ClassB(int a, String abc){
     System.out.println("value of fa");
   }
 
-  //(original has made this change)
-  //(copy)i have made this changes 
+  //(original has made this change)///
+  //(copy)i have made this changes ....
 
 }
